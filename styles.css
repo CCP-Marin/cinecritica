@@ -29,7 +29,7 @@
 /* Elementos agrupados */
 header, main {
     width: 100%;
-    padding: 0px 4%;
+    padding: 0px 5%;
 }
 
 /* <header> */
@@ -75,6 +75,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
     color: black;
+    font-weight: 800;
 }
 
 /* <main> */
