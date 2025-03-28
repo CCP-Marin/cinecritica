@@ -26,11 +26,15 @@
 }
 
 
-/* Elementos */
-header {
+/* Elementos agrupados */
+header, main {
     width: 100%;
+    padding: 0px 4%;
+}
+
+/* <header> */
+header {
     height: 110px;
-    padding: 0px 20px;
     background: #FF1313;
 }
 
@@ -66,8 +70,19 @@ header nav ul li {
 header nav ul li a {
     text-transform: uppercase;
     color: white;
+    cursor: pointer;
 }
 
 header nav ul li a:hover {
     color: black;
+}
+
+/* <main> */
+main section {
+    width: 100%;
+    height: 100vh;
+}
+
+main section#hero {
+    background: black;
 }
