@@ -20,10 +20,9 @@ header {
 }
 
 header #logo {
-    display: inline-block;
+    display: inline;
     text-transform: uppercase;
     font-size: 36px;
-    height: 110px;
 }
 
 header #logo a {
@@ -32,8 +31,7 @@ header #logo a {
 }
 
 header nav {
-    display: inline-block;
-    height: 110px;
+    display: inline;
 }
 
 header nav ul {
@@ -41,5 +39,5 @@ header nav ul {
 }
 
 header nav ul li {
-    display: inline-block;
+    display: inline;
 }
