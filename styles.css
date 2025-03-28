@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 /* Tipografias */
@@ -17,14 +19,29 @@ header {
     justify-content: flex-start;
     align-content: center;
     align-items: stretch;
+    width: 100%;
     height: 110px;
+    padding: 0px 20px;
     background: #FF1313;
+}
+
+header #logo {
+    text-transform: uppercase;
+    color: white;
 }
 
 header #logo {
     text-transform: uppercase;
 }
 
+header #logo a {
+    text-decoration: none;
+}
+
 header nav {
     
+}
+
+header nav ul {
+    list-style: none;
 }
