@@ -27,7 +27,7 @@
 
 
 /* Elementos agrupados */
-header, section {
+header, section, footer {
     width: 100%;
     padding: 0px 5%;
 }
@@ -85,5 +85,15 @@ main section {
 }
 
 main section#hero {
+    height: calc(100vh - 110px);
+    background: black;
+}
+
+main section#cards {
+    background: #FF1313;
+}
+
+footer {
+    height: 162px;
     background: black;
 }
