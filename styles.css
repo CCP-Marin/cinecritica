@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+.clear {
+    clear: both;
+}
+
 /* Tipografias */
 .dela-gothic-one-regular {
     font-family: "Dela Gothic One", sans-serif;
@@ -20,13 +24,11 @@ header {
 }
 
 header #logo {
-    display: inline-block;
-    height: 110px;
+    display: block;
+    float: left;
 }
 
 header #logo a {
-    display: inline-block;
-    margin-top: 22px;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 36px;
@@ -34,8 +36,8 @@ header #logo a {
 }
 
 header nav {
-    display: inline-block;
-    height: 110px;
+    display: block;
+    float: right;
     padding-top: 26px 0px;
 }
 
